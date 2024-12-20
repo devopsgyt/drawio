@@ -7,7 +7,6 @@
 
 	<target name="merge">
     	<concat destfile="${basedir}/../../build/shapes.js" fixlastline="yes" append="no">
-    		<fileset dir="${war.dir}/shapes" includes="**/*.js"/>
     		<fileset dir="${war.dir}/stencils" includes="**/*.js"/>
     	</concat>
     	
